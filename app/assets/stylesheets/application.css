@@ -1,19 +1,8 @@
 
 body {
     background-color: grey;
+    text-align: center;
     font-family: Courier New, Courier, monospace
-}
-
-h1 {
-    text-align: center;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
-    text-align: center;
 }
 
 img {
@@ -22,11 +11,6 @@ img {
     margin-right: auto;
     width: 40%;
     height: 30%;
-}
-
-.container {
-    position: relative;
-    width: 100%;
 }
 
 a img {
@@ -50,13 +34,12 @@ ul {
 }
 
 li {
-text-align: center;
 list-style-type: none;
 margin: 0;
 padding: 0;
 }
 .navbar {
-    text-align: center;
+  
     overflow: hidden;
     background-color: #333;
     font-family: monospace;
@@ -68,7 +51,7 @@ padding: 0;
     float: left;
     font-size: 16px;
     color: white;
-    text-align: center;
+  
     padding: 14px 16px;
     text-decoration: none;
   }
