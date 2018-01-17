@@ -1,3 +1,21 @@
 <h1><%= @game.title %></h1>
 <img src="<%= @game.image_url %>">
 <h4> info: <%= @game.info%></h4>
+
+<%= form_for [@game, @comment] do |f| %>
+    <p>
+        <%= f.label :body, 'Comment' %></br>
+        <%= f.text_area :body %>
+    </p>
+    <p><%= f.submit  "Submit Comment" %></p>
+
+    <% end %>
+
+<ul>
+    <% @game.comments.each do |c| %>
+    <li>
+        <p><%= c.body %></p>
+        <p><%= c.user.name %></p>
+    </li>
+    <% end %>
+</ul>
