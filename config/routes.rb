@@ -3,7 +3,9 @@ Rails.application.routes.draw do
     
     resources :games do
        resources :comments, only: [:create, :destroy, :edit, :update], shallow: true
+       resources :likes, only: [:create, :destroy], shallow: true
     end
+
     resources :users, only: [:new, :create]
     resources :sessions, only: [:new, :create, :destroy]
 
