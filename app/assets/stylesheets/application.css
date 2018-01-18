@@ -9,6 +9,10 @@ h1 {
   color: lavenderblush;
 }
 
+.link-to-text-color {
+  color: blue;
+}
+
 h4 {
   white-space: wrap;
   color: #2A2EB1;
