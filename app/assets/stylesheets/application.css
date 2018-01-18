@@ -1,8 +1,12 @@
-
 body {
     background-color: grey;
     text-align: center;
-    font-family: Courier New, Courier, monospace
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+h1 {
+  color: lavenderblush;
 }
 
 img {
@@ -108,3 +112,12 @@ padding: 0;
     display: block;
   }
 
+  p {
+    color: white;
+    text-align: left;
+  }
+
+  ul .container {
+    text-align: center;
+    font-size: 9px;
+  }

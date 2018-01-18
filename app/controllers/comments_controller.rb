@@ -19,13 +19,19 @@ class CommentsController < ApplicationController
         @comment = Comment.find(params[:id])
     end
 
+    def destroy
+        @comment = Comment.find(params[:id])
+        @comment.destroy
+        redirect_to game_path(@comment.game)
+    end
+
    private 
 
-   def comment_params 
+    def comment_params 
     params.require(:comment).permit(:body)
-   end
+    end
 
-   def set_comment 
+    def set_comment 
     @comment = Comment.find(params[:id])
-   end
+    end
 end

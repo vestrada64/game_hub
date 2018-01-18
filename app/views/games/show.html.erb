@@ -16,6 +16,11 @@
     <li>
         <p><%= c.body %></p>
         <p><%= c.user.name %></p>
+        <%= link_to '( Delete ', game_path(c),
+                    method: :delete,
+                    data: { confirm: 'Are You Sure?'  } if c.user == current_user %>
+        <%= link_to '| Edit )', edit_game_path(c),
+                    method: :get if c.user == current_user %>
     </li>
     <% end %>
 </ul>
