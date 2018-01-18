@@ -3,7 +3,7 @@
     <% @games.each do |game| %>
         <%= link_to game_path(game) do %>
             <img src="<%= game.image_url %>">
-            <h4><%= game.title %></h4>
+            <h5><%= game.title %></h5>
         <% end %>
     <% end %>
 </div>

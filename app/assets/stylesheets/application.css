@@ -1,123 +1,138 @@
 body {
-    background-color: grey;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+  background-color: grey;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
 }
 
 h1 {
   color: lavenderblush;
 }
 
+h4 {
+  white-space: wrap;
+  color: #2A2EB1;
+  text-align: left;
+  line-height: 23px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+h5 {
+  color: purple;
+}
+
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 30%;
 }
 
 a img {
-    margin:0 auto;
-    display:block;
+  margin:0 auto;
+  display:block;
 }
 
 .gallery {
-    margin:0 auto;
-    display:block;
+  margin:0 auto;
+  display:block;
 }
 
 .selector-for-some-widget {
-    box-sizing: content-box;
+  box-sizing: content-box;
   }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-list-style-type: none;
-margin: 0;
-padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: monospace;
-    width: 206px;
-  }
+  overflow: hidden;
+  background-color: #333;
+  font-family: monospace;
+  width: 206px;
+}
   
   /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-  
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
   /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    font-family: monospace;
-  }
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-family: monospace;
+}
   
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px; 
-    font-family: monospace;
-    border: none;
-    outline: none;
-    color: gray;
-    padding: 14px 16px;
-    background-color: inherit;
-  }
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  font-family: monospace;
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+}
   
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: purple;
-  }
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: purple;
+}
   
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: grey;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
   
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
   
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
   
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  p {
-    color: white;
-    text-align: left;
-  }
+p {
+  color: white;
+  text-align: center;
+}
 
-  ul .container {
-    text-align: center;
-    font-size: 9px;
-  }
+ul .container {
+  text-align: center;
+  font-size: 9px;
+}
+
+
