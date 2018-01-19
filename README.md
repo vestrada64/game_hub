@@ -1,5 +1,5 @@
 # Gamehub! 
-![](https://i.imgur.com/2eZl6SA.png)
+![](https://i.imgur.com/kYF0mCb.png)
 
 ## What is GameHub and how does it work?
 It's for anyone who loves games and is interested in a certain list of games that is up on the site! You can see reviews and comments from different people and figure out if it's a game you would be interested in purchasing. You're able to comment and leave a like for others to see how you feel about the game!
