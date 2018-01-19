@@ -10,7 +10,7 @@ It's for anyone who loves games and is interested in a certain list of games tha
 * **Ruby on Rails** 
 
 ## Getting Started!
-[GameHub](https://nerd-games.herokuapp.com/games/1)
+[GameHub](https://nerd-games.herokuapp.com/games/1) | 
 [Trello](https://trello.com/b/umRIFKYn/project-2)
 
 
