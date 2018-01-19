@@ -2,8 +2,8 @@
 <img src="<%= @game.image_url %>">
 <h4> info: <%= @game.info%></h4>
 <h4> likes: <%= @game.likes.count %></h4>
-<%= link_to image_tag('like.ico', class: 'like-icon'), game_likes_path(@game), method: :post if current_user  && !current_user.games.include?(@game) %>
-<%= link_to image_tag('unlike.ico', class: 'unlike-icon'), like_path(@game), method: :delete if current_user  && current_user.games.include?(@game) %>
+<%= link_to image_tag('like2.png', class: 'like-icon'), game_likes_path(@game), method: :post if current_user  && !current_user.games.include?(@game) %>
+<%= link_to image_tag('unlike2.png', class: 'unlike-icon'), like_path(@game), method: :delete if current_user  && current_user.games.include?(@game) %>
 
 <%= form_for [@game, @comment] do |f| %>
     <p>
@@ -14,7 +14,7 @@
 
     <% end %>
 
-<ul>
+<div class="comments">
     <% @game.comments.each do |c| %>
     <li>
         <p><%= c.body %></p>
@@ -24,4 +24,4 @@
                     method: :get if c.user == current_user %>
     </li>
     <% end %>
-</ul>
+</div>

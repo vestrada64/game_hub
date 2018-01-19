@@ -25,7 +25,7 @@ class CommentsController < ApplicationController
             redirect_to game_path(@comment.game)
         else
             render:edit
-        end
+    end
     end
 
     def destroy
