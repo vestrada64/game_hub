@@ -1,10 +1,10 @@
 body {
-  background-image: url('https://i.imgur.com/VxGI1b5.png');
+  background-color: #999BDF;
   margin: 0;
   color: white;
   text-align: center;
   font-family: 'Amaranth', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   margin: 100px;
 }
 
@@ -20,8 +20,10 @@ h4 {
   color: white;
   text-align: left;
   line-height: 23px;
-  margin: 20px;
+  margin: 15px 0;
+  padding: 15px 0;
   border: 1px solid purple;
+  border-radius: 10px;
 }
 
 h5 {
@@ -43,6 +45,7 @@ a img {
 
 p {
   color: white;
+  padding: 15px;
   background-image: url('https://i.imgur.com/04IsrxV.jpg');
 }
 
@@ -60,7 +63,7 @@ p {
   background-color: black;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px ;
   text-decoration: none;
   font-size: 17px;
 }
