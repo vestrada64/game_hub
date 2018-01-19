@@ -14,6 +14,6 @@ It's for anyone who loves games and is interested in a certain list of games tha
 [Trello](https://trello.com/b/umRIFKYn/project-2)
 
 
-### Future (IceBox) features!
+### Future (IceBox) features / Next steps
 * Add a liked page for the user to see what game they liked so they can go and see instead of looking for the game.
 * Add a video on the specific game page instead of an image being able to see what the game is more about.  
