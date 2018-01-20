@@ -1,5 +1,6 @@
 class CommentsController < ApplicationController 
-  
+    before_action :authorize
+    
     def index
         @comments = Comment.all 
     end
@@ -25,7 +26,7 @@ class CommentsController < ApplicationController
             redirect_to game_path(@comment.game)
         else
             render:edit
-    end
+        end
     end
 
     def destroy
@@ -37,10 +38,10 @@ class CommentsController < ApplicationController
    private 
 
     def comment_params 
-    params.require(:comment).permit(:body)
+        params.require(:comment).permit(:body)
     end
 
     def set_comment 
-    @comment = Comment.find(params[:id])
+        @comment = Comment.find(params[:id])
     end
 end

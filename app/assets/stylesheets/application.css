@@ -1,28 +1,26 @@
 body {
-  background-color: #999BDF;
-  margin: 0;
+  background-color: black;
   color: white;
   text-align: center;
   font-family: 'Amaranth', sans-serif;
   font-size: 20px;
-  margin: 100px;
+  margin: 25px 50px 20px 80px;
+  padding: 75px;
 }
 
 h1 {
+  text-align: left;
   color: white;
   font-family: 'Amaranth', sans-serif;
   font-family: 'Bungee Inline', cursive;
 }
 
 h4 {
-  background-image: url('https://i.imgur.com/04IsrxV.jpg');
-  white-space: wrap;
+  align-content: right;
   color: white;
-  text-align: left;
   line-height: 23px;
-  margin: 15px 0;
-  padding: 15px 0;
-  border: 1px solid purple;
+  margin: 30px 50px 20px;
+  border: 1px solid black;
   border-radius: 10px;
 }
 
@@ -31,22 +29,36 @@ h5 {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
   width: 40%;
   height: auto;
 }
 
-a img {
-  margin: 0 auto;
-  display: block;
-}
-
 p {
+  text-align: center;
   color: white;
   padding: 15px;
-  background-image: url('https://i.imgur.com/04IsrxV.jpg');
+}
+
+a {
+  position: justify;
+  text-align: left;
+}
+
+li {
+  text-align: right;
+}
+
+h1.main {
+  text-align: center;
+}
+
+p.account {
+  text-align: center;
+}
+
+.comments {
+  float: right;
 }
 
 .gallery {
@@ -55,7 +67,6 @@ p {
 }
 
 .topnav {
-  background-image: url('https://i.imgur.com/04IsrxV.jpg');
   overflow: hidden;
 }
 
@@ -74,6 +85,9 @@ p {
 }
 
 img.like-icon, img.unlike-icon {
+  align-content: left;
+  background-color: white;
   height: 98px;
   width: auto;
+  opacity: 0.4;
 }

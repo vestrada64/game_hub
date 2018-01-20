@@ -4,7 +4,7 @@
     <title>GameHub</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <h1> Welcome to GameHub!</h1>
+    <h1 class="main"> Welcome to GameHub!</h1>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -18,7 +18,7 @@
   <a class="liked" href="#">Liked</a>
 </div>
   </header>
-  <p>
+  <p class="account">
     <% if current_user %>
     Welcome, <%= current_user.name %>
     &nbsp;&nbsp;|&nbsp;&nbsp;
