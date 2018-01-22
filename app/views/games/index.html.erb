@@ -1,9 +1,9 @@
 <h3>Games</h3>
-<div id="images">
+<div class="images">
     <% @games.each do |game| %>
     <%= link_to game_path(game) do %>
         <img src="<%= game.image_url %>">
-        <h5><%= game.title %></h5>
+        <h5 class="index"><%= game.title %></h5>
 <% end %>
 <% end %>
 </div>
